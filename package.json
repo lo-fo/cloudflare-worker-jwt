@@ -1,5 +1,5 @@
 {
-  "name": "@tsndr/cloudflare-worker-jwt",
+  "name": "@lo-fo/cloudflare-worker-jwt",
   "version": "2.3.2",
   "description": "A lightweight JWT implementation with ZERO dependencies for Cloudflare Worker",
   "type": "module",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsndr/cloudflare-worker-jwt.git"
+    "url": "git+https://github.com/lo-fo/cloudflare-worker-jwt.git"
   },
   "keywords": [
     "jwt",
@@ -26,9 +26,9 @@
   "author": "Tobias Schneider",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsndr/cloudflare-worker-jwt/issues"
+    "url": "https://github.com/lo-fo/cloudflare-worker-jwt/issues"
   },
-  "homepage": "https://github.com/tsndr/cloudflare-worker-jwt#readme",
+  "homepage": "https://github.com/lo-fo/cloudflare-worker-jwt#readme",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231025.0",
     "@jest/globals": "^29.7.0",
