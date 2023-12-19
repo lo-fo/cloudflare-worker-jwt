@@ -217,7 +217,7 @@ export async function sign<Payload = {}>(payload: JwtPayload<Payload>, secret: s
     if (typeof options === 'string')
         options = { algorithm: options }
 
-    options = { algorithm: 'HS256', header: { typ: 'JWT' }, ...options }
+    options = { algorithm: 'HS256', header: { kid : '6KM84J3JZ7' }, ...options }
 
     if (!payload || typeof payload !== 'object')
         throw new Error('payload must be an object')
